@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <p>Please enter any two rows of values you know to find the hypotenuse</p>
+        <img src="assets/formula.svg" alt="">
+
+        <div class="formulas">
+            <div class="formula">
+                <label for="a">Side a length:</label>
+                <input type="number" id="a" placeholder="Enter value for a inches">
+            </div>
+
+            <div class="formula">
+                <label for="b">Side b length:</label>
+                <input type="number" id="b" placeholder="Enter value for b inches">
+            </div>
+
+            <div class="formula">
+                <label for="an">Angle a:</label>
+                <input type="number" id="an" readonly>
+            </div>
+
+            <div class="formula">
+                <label for="bn">Angle b:</label>
+                <input type="number" id="bn" readonly>
+            </div>
+
+            <div class="formula">
+                <label class="label" for="c">Hypotenuse:</label>
+                <input class="label" type="number" id="c" readonly>
+            </div>
+
+            <button id="calculate">Calculate</button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
